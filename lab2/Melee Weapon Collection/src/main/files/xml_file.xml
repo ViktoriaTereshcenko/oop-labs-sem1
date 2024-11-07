@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knives>
+    <knife id="knife-1">
+        <type>knife</type>
+        <handy>one-handed</handy>
+        <origin>Japan</origin>
+        <visual>
+            <blade>
+                <length>30</length>
+                <width>10</width>
+                <material>steel</material>
+            </blade>
+            <handle>
+                <material>wood</material>
+                <woodType>oak</woodType>
+            </handle>
+            <dole>true</dole>
+        </visual>
+        <value>collectible</value>
+    </knife>
+
+    <knife id="knife-2">
+        <type>dagger</type>
+        <handy>two-handed</handy>
+        <origin>India</origin>
+        <visual>
+            <blade>
+                <length>40</length>
+                <width>11</width>
+                <material>iron</material>
+            </blade>
+            <handle>
+                <material>metal</material>
+            </handle>
+            <dole>false</dole>
+        </visual>
+        <value>not collectible</value>
+    </knife>
+
+    <knife id="knife-3">
+        <type>saber</type>
+        <handy>one-handed</handy>
+        <origin>France</origin>
+        <visual>
+            <blade>
+                <length>35</length>
+                <width>12</width>
+                <material>copper</material>
+            </blade>
+            <handle>
+                <material>plastic</material>
+            </handle>
+            <dole>true</dole>
+        </visual>
+        <value>collectible</value>
+    </knife>
+</knives>
