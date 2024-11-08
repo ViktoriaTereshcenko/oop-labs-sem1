@@ -3,16 +3,16 @@ package knight;
 import knight.equipment.Armor;
 import knight.equipment.Weapon;
 import knight.equipment.Shield;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class KnightTest {
     private Knight knight;
 
-    @BeforeEach
+    @Before
     public void setUp() {
         knight = new Knight();
         knight.equip(new Armor("Латні обладунки", 15.0, 300.0, "Сталь"));
